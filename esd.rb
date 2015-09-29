@@ -413,14 +413,15 @@ data.keys.each do |key|
     </div>
   </div>
   <div class="row" style="border-bottom: 2px solid black;">
-  <div class="row">
-    <div class="col-md-12 col-xs-12">
-      That's it for today. Happy hunting and good luck, starfighter!
-    </div>
   </div>
 </div>
 EOF
 end
+html_body <<  "  <div class='row'>"
+html_body <<  "    <div class='col-md-12 col-xs-12'>"
+html_body <<  "      That's it for today. Happy hunting and good luck, starfighter!"
+html_body <<  "    </div>"
+html_body <<  "  </div>"
 html_body <<  "</div>"
 html_body <<  "</body>"
 html_body <<  "</html>"
