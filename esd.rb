@@ -414,7 +414,6 @@ data.keys.each do |key|
   </div>
   <div class="row" style="border-bottom: 2px solid black;">
   </div>
-</div>
 EOF
 end
 html_body <<  "  <div class='row'>"
